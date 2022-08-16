@@ -1,0 +1,20 @@
+body {
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-link {
+    display: flex;
+}
+
+.right-link {
+    display: flex;
+    gap: 20px;
+}
