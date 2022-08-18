@@ -1,5 +1,5 @@
 body {
-    height: 100vh;
+
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    background: #1f2937;
 }
 
 .left-link {
@@ -23,9 +24,50 @@ body {
 
 a {
     text-decoration: none;
-
+    color: white;
+    font-weight: 500;
 }
 
 ul {
     list-style: none;
 }
+
+/* use % to resize image */
+img {
+    max-width: 200%;
+    max-height: 200%;
+}
+
+/*above the fold and boxing code (below)*/
+.fullscreen {
+    width: auto;
+    height: 50vh;
+    color: white;
+    padding: 40vh;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.a {
+    background: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.b {
+    background: white;
+}
+
+.c {
+    background: #e5e7eb;
+}
+
+.d {
+    background: white;
+}
+
+/*above the fold and boxing code (above)*/
