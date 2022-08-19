@@ -5,6 +5,8 @@ body {
     flex-direction: column;
 }
 
+/* HEADER (BELOW) */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -13,14 +15,15 @@ body {
 
 .left-link {
     display: flex;
-    padding-left: 10px;
+    padding-left: 270px;
 }
 
 .right-link {
     display: flex;
     gap: 20px;
-    padding-right: 10px;
+    padding-right: 270px;
 }
+/* HEADER (ABOVE) */
 
 a {
     text-decoration: none;
@@ -34,14 +37,44 @@ ul {
 
 /* use % to resize image */
 img {
-    max-width: 200%;
-    max-height: 200%;
+    max-width: 300%;
+    max-height: 300%;
+    border: 10px solid ;
+    background-color: #e5e7eb;
 }
 
-/*above the fold and boxing code (below)*/
-.fullscreen {
+.bigtext {
+	font-size: 48px;
+}
+
+.smalltext {
+    font-size: 18px;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hero {
+    padding-top: 20%;
+    gap: 10%;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 2% 5%;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+
+/*above the fold and boxing code (start)*/
+.section {
     width: auto;
-    height: 50vh;
+    height: 80vh;
     color: white;
     padding: 40vh;
 }
@@ -51,23 +84,29 @@ body {
     margin: 0;
 }
 
-.a {
+.one {
     background: #1f2937;
     color: white;
-    display: flex;
-    justify-content: space-around;
+	display: flex;
+	padding-top: 50px;
+
 }
 
-.b {
+.two {
     background: white;
 }
 
-.c {
+.three {
     background: #e5e7eb;
 }
 
-.d {
+.four {
     background: white;
 }
 
-/*above the fold and boxing code (above)*/
+/*above the fold and boxing code (end)*/
+
+.two {
+    color: black;
+    
+}
